@@ -104,14 +104,14 @@
 					<ul class="nav navbar-nav navbar-right hidden-md hidden-sm hidden-xs">
                     </ul>
                     <ul class="nav navbar-nav navbar-right menu-top">
-                        <li><a href="/index">About</a></li>
-                        <li><a href="profile.html">Profile </a></li>
-                        <li><a class="active" href="services.html">Lectures</a></li>
-                        <li><a href="/aEvents">Event/extra Lectures</a></li>
-                        <li><a href="pricing.html">Student affair/digital Library</a></li>
-                        <li><a href="/index1">Student Management</a></li>
-                        <li><a href="inventry.html">Inventory</a></li>
-                        <li><a href="">Exams/Assigments</a></li>
+                        <li><a href="/indexx">About </a></li>
+						            <li><a href="/profile">profile</a></li>
+                        <li><a class="active" href="/modulehome">Lectures</a></li>
+                        <li><a href="/aEvents">Events & Extra Lectures</a></li>
+                        <li><a href="/AdminDigLibandStudAff">Student Affairs & Digital Library</a></li>
+                        <li><a  href="/index1">Student Management</a></li>
+                        <li><a  href="/inventry">Invetory</a></li>
+						<li><a href="/exam">Exams & Assignments </a></li>
                     </ul>
                 </div>
             </div>

@@ -74,12 +74,12 @@
                         <li><a class="btn-light btn-radius btn-brd top-btn" href="#"><i class="fa fa-angle-double-right"></i>User ID and Name</a></li>
                     </ul>
                      <ul class="nav navbar-nav navbar-right menu-top">
-                         <li><a href='/index'>About</a></li>
-                        <li><a href='sProfile'>Profile </a></li>
-                        <li><a href='sLectures'>Lectures</a></li>
-                        <li><a href='/Events'>Events & Extra Lectures</a></li>
-                        <li><a class='active' href='DigLibandStudAff'>Digital Library & Student Affairs</a></li>
-                        <li><a href='sExams'>Exams & Assignments </a></li>
+                         <li><a href="/index">About</a></li>
+                        <li><a href="/sProfile">Profile </a></li>
+                        <li><a href="/Student_Module_Home">Lectures</a></li>
+                        <li><a  href="{{ url('Events')}} ">Events & Extra Lectures</a></li>
+                        <li><a class="active" href="/DigLibandStudAff">Student Affairs & Digital Library</a></li>
+                        <li><a href="/sexam">Exams & Assignments </a></li>
                     </ul>
                 </div>
             </div>
