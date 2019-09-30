@@ -140,7 +140,7 @@
 
         <form action ="/search" name="search" class="form-control">
             <div class="input-group>">
-                <input type="search" name="search" class="form-control">
+                <input type="search" name="search" class="form-control" placeholder="Enter Venue">
                 <span class="input-group-prepend">
                     <button type="submit" class="btn btn-primary">SEARCH</button>
 

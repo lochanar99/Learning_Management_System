@@ -220,12 +220,14 @@ public function Add_Extra_Lecture(){
         return view('frontEnd.adminshow_current_events',['show_current_events' => $posts]);
     }
 
-    /*public function searchx(Request $request){
+    public function searchx(Request $request){
 
         $search = $request->get('search');
 
-        $posts = DB::table('e_lecs')->get('e');
-    }*/ 
+        $posts = DB::table('e_lecs')->where('mName','LIKE', '%' . $search . '%')->paginate(5);
+
+        return view ('frontEnd.adminshow_current_lecs',['show_current_lecs'=> $posts]);
+    }
 
     
 }

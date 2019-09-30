@@ -131,6 +131,23 @@
         </path>
     </svg>
 
+    <div class="container">
+
+    <form action="{{URL::to('/searchx')}}" method="POST" role="search">
+    {{csrf_field()}}
+
+    <div class="col-md-4">
+
+        <form action ="/searchx" name="search" class="form-control">
+            <div class="input-group>">
+                <input type="search" name="search" class="form-control" placeholder="Enter Module Name">
+                <span class="input-group-prepend">
+                    <button type="submit" class="btn btn-primary">SEARCH</button>
+
+        </div>
+        </form>
+        </div>
+
     <div class="">
     <table class ="table table-dark">
                         <th>ID</th>

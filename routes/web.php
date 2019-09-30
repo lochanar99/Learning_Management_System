@@ -68,6 +68,8 @@ Route::get('/deleteLec/{Eid}', 'EventController@deletelec');
 
 Route::post('/search','EventController@search');
 
+Route::post('/searchx','EventController@searchx');
+
 Route::get('/updateEvent/{Eid}','EventController@updateEvent');
 
 
@@ -421,3 +423,6 @@ Route::get('/notice', function () {
                             Route::post('/AdminCarrierGuide', 'AdminController@guide');
                             
                             Route::get('/AdminCarrierGuide/{$Carrier->CarID}', 'AdminController@deleteCarrier');
+
+
+                             
