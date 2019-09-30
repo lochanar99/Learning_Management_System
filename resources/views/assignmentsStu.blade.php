@@ -74,11 +74,11 @@
                         <li><a class="btn-light btn-radius btn-brd top-btn" href="#"><i class="fa fa-angle-double-right"></i>SEO Analysis</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right menu-top">
-                        <li><a href="/index">About</a></li>
-                        <li><a href="sProfile.html">Profile </a></li>
-                        <li><a href="sLectures.html">Lectures</a></li>
-                        <li><a href="/Events">Events & Extra Lectures</a></li>
-                        <li><a href="sAffairDlib.html">Student Affairs & Digital Library</a></li>
+                    <li><a href="/index">About</a></li>
+                        <li><a href="/sProfile">Profile </a></li>
+                        <li><a href="/Student_Module_Home">Lectures</a></li>
+                        <li><a href="{{ url('Events')}} ">Events & Extra Lectures</a></li>
+                        <li><a href="/DigLibandStudAff">Student Affairs & Digital Library</a></li>
                         <li><a class="active" href="/sexam">Exams & Assignments </a></li>
                     </ul>
                 </div>

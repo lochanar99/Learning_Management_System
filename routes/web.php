@@ -14,6 +14,7 @@ use App\eEvents;
 |
 */
 
+
 Route::get('/Events','EventController@Events');
 
 Route::get('/Add_Extra_Lecture', 'EventController@Add_Extra_Lecture');
@@ -103,6 +104,10 @@ Route::get('/index',function(){
 return view('index');
 
 });
+Route::get('/indexx',function(){
+    return view('indexx');
+    
+    });
 
 Route::get('/lec1st1sem',function(){
     return view('Lecture_1stYear_1stSemester');

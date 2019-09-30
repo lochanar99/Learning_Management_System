@@ -72,14 +72,14 @@
                 <div id="navbar" class="navbar-collapse collapse">
 				
                     <ul class="nav navbar-nav navbar-right menu-top">
-                        <li><a href="/index">About </a></li>
-						<li><a href="profile.html">profile</a></li>
+                        <li><a href="/indexx">About </a></li>
+						            <li><a href="/profile">profile</a></li>
                         <li><a href="/modulehome">Lectures</a></li>
                         <li><a href="/aEvents">Events & Extra Lectures</a></li>
-                        <li><a href="pricing.html">Student Affairs & Digital Library</a></li>
+                        <li><a href="/AdminDigLibandStudAff">Student Affairs & Digital Library</a></li>
                         <li><a class="active" href="/index1">Student Management</a></li>
-                        <li><a class="inventory.html">Invetory</a></li>
-						<li><a href="">Exams & Assignments </a></li>
+                        <li><a href="/inventry">Invetory</a></li>
+						            <li><a href="/exam">Exams & Assignments </a></li>
                       
                     </ul>
                    

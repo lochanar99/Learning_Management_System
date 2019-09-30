@@ -74,8 +74,8 @@
                         <li><a class="btn-light btn-radius btn-brd top-btn" href="#"><i class="fa fa-angle-double-right"></i>SEO Analysis</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right menu-top">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="/profile">profile</a></li>
+                        <li><a href="/indexx">About</a></li>
+                        <li><a href="/profile">profile</a></li>
                         <li><a href="/modulehome">Lectures</a></li>
                         <li><a href="/aEvents">Events & Extra Lectures</a></li>
                         <li><a  href="/AdminDigitaLibandStudAff">Student Affairs & Digital Library</a></li>

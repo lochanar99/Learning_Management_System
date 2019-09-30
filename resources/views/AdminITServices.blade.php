@@ -74,11 +74,12 @@
                         <li><a class="btn-light btn-radius btn-brd top-btn" href="#"><i class="fa fa-angle-double-right"></i>User ID and Name</a></li>
                     </ul>
                      <ul class="nav navbar-nav navbar-right menu-top">
-                     <li><a href="/profile">profile</a></li>
+                        <li><a href="/indexx">About </a></li>
+						<li><a href="/profile">profile</a></li>
                         <li><a href="/modulehome">Lectures</a></li>
                         <li><a href="/aEvents">Events & Extra Lectures</a></li>
                         <li><a class="active" href="/AdminDigLibandStudAff">Student Affairs & Digital Library</a></li>
-                        <li><a  href="/index1">Student Management</a></li>
+                        <li><a href="/index1">Student Management</a></li>
                         <li><a href="/inventry">Invetory</a></li>
 						<li><a href="/exam">Exams & Assignments </a></li>
                     </ul>

@@ -113,11 +113,11 @@ div.student_feedback_form {
 			
                     <ul class="nav navbar-nav navbar-right menu-top">
                         <li><a href="/index">About</a></li>
-                        <li><a class="active" href="contact.html">Profile</a></li>
-                        <li><a href="services.html">Lectures</a></li>
-                        <li><a href="/Events">Event/Extra Lectures</a></li>
-                        <li><a href="pricing.html">Student Afirs/Digital Library</a></li>
-                        <li><a href="case-study.html">Exams/Assignment</a></li>
+                        <li><a CLASS="active" ref="/sProfile">Profile </a></li>
+                        <li><a href="/Student_Module_Home">Lectures</a></li>
+                        <li><a href="{{ url('Events')}} ">Events & Extra Lectures</a></li>
+                        <li><a href="/DigLibandStudAff">Student Affairs & Digital Library</a></li>
+                        <li><a href="/sexam">Exams & Assignments </a></li>
                     </ul>
                 </div>
             </div>

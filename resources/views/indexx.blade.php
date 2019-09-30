@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
  
      <!-- Site Metas -->
-    <title>Admin Digital Library </title>  
+    <title>Event</title>  
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -21,7 +21,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Colors CSS -->
     <link rel="stylesheet" href="css/colors.css">
     <!-- ALL VERSION CSS -->
@@ -39,7 +39,7 @@
 </head>
 <body class="seo_version">
 
-	<!-- LOADER -->
+    <!-- LOADER -->
 	<div id="preloader">
 		<div id="cupcake" class="box">
 			<span class="letter">L</span>
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 	<!-- END LOADER -->
-	
+
     <header class="header header_style_01">
         <nav class="megamenu navbar navbar-default">
             <div class="container">
@@ -67,116 +67,124 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logos/logoX.png" alt="image"></a>
+                    <a class="navbar-brand" href="index.html"><img style="position: absolute; top: 20px; bottom: 20px" src="images/logos/logo-light.png" alt="image" width="100" height="100"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right hidden-md hidden-sm hidden-xs">
-                        <li><a class="btn-light btn-radius btn-brd top-btn" href="#"><i class="fa fa-angle-double-right"></i>User ID and Name</a></li>
+                        
                     </ul>
-                     <ul class="nav navbar-nav navbar-right menu-top">
-                        <li><a href="/indexx">About </a></li>
+                    <ul class="nav navbar-nav navbar-right menu-top">
+                        <li><a class="active" href="/indexx">About </a></li>
 						<li><a href="/profile">profile</a></li>
                         <li><a href="/modulehome">Lectures</a></li>
                         <li><a href="/aEvents">Events & Extra Lectures</a></li>
-                        <li><a class="active" href="/AdminDigLibandStudAff">Student Affairs & Digital Library</a></li>
+                        <li><a href="/AdminDigLibandStudAff">Student Affairs & Digital Library</a></li>
                         <li><a href="/index1">Student Management</a></li>
                         <li><a href="/inventry">Invetory</a></li>
 						<li><a href="/exam">Exams & Assignments </a></li>
+                        <br><br><br><br>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div id="home" class="parallax first-section" data-stellar-background-ratio="0.4" style="background-image:url('uploads/Library.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="big-tagline">
-                        <h2> </h2>
-                        
-                    </div>
+    <div class="all-page-title" style="background-image:url(images/pattern-4.png);">
+        <div class="container text-center"><br>
+            <h1>ABOUT</h1>
+        </div>
+		<!--Page -->
+        <div class="page-info">
+            <div class="container">
+            	<div class="inner-container">
+                    <ul class="bread-crumb">
+                       <h1> School of Ophthalmology<h1>
+                    </ul>
                 </div>
-
-                <div class="app_iphone_02 wow slideInUp hidden-xs hidden-sm" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img src="uploads/Book.png" alt="" class="img-responsive">
-                </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
+            </div>
+        </div>
+        <!--End Page-->
     </div><!-- end section -->
 
-    <div id="services" class="section lb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Digital Library</h3>
-            </div><!-- end title -->
-            <div class="row">
-        <div class="col-md-12">
+    <svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
 
-                @foreach($errors->all() as $error)
-                <div class="alert alert-danger" role="alert"> 
-                {{$error}}
-                </div>
-                @endforeach
 
-            <form method="post" action="/AdminDigitalLib">
-            {{csrf_field()}}
-           
-            <input type="text" class="form-control" name="BookName" placeholder="Book Name">
-            <br>
-            <input type="text" class="form-control" name="Desc" placeholder="Description">
-            <br>
-            <input type="text" class="form-control" name="LecID" placeholder="Lecturer ID">
-            <br>
-            <input type="text" class="form-control" name="LecName" placeholder="Lecturer Name">
-            <br>
-            <input type="submit" class="btn btn-primary" value="ADD">
-            <a href="/AdminDigitalLib" class="btn btn-warning">CLEAR</a>
-            </form>
-            <br><br>
 
-            <div class="container text-center">
-			<form action="upload.php" method="post" enctype="multiple/form-data"><h4>Select Files To Upload:</h4></br></br><input type="file" name="FileToUpload" id="filetoupload">
-				<input type="submit" value="Upload" name="Submit">
-			</form>
-	        </div>
-            <br>
-            <br>
+    <div class="text-center">
+       <img width = "500px" height="500px class="zoom" src="images/logos/logo-light.png">
 
-            <table class="table table-light">
-                        <th>Book ID</th>
-                        <th>Book Name</th>
-                        <th>Description</th>
-                        <th>Lecturer ID</th>
-                        <th>Lecturer Name</th>
-                        
-                       
-                @foreach($books as $Book)
-                    <tr>
-                    <td>{{$Book->BookID}}</td>
-                    <td>{{$Book->BookName}}</td>
-                    <td>{{$Book->Desc}}</td>
-                    <td>{{$Book->LecID}}</td>
-                    <td>{{$Book->LecName}}</td>
-                    <td><a href="/AdminDigitalLib" class="btn btn-warning">Delete</a></td>
-                    <td><a href="/updateBook" class="btn btn-success">Update</a></td>
-                    </tr>
-                    
-                @endforeach
-            </table>
-            <br>
-			<br>
-            
-        </div>
+        <br><br><br><br><br>
+            <h1> In Sri Lankan government Optometrists/Ophthalmic Technology carrying out refraction, dispensing, detection/diagnosis and management of visual defects and the rehabilitation of conditions of the visual system.
+To achieve this, a training center was built in the National Eye Hospital Colombo 10, by the name of School of Ophthalmic Technology.
+We have decided to build a web page to assist students and the lecturers of this training center.
+LMS is designed to upload and share the course content making learning and teaching more efficient.
+By this system we would be able to provide a platform to lecturers and students communicate.
+This system will also help save time and energy in the institute that is wasted due to excessive communication, mainly by the lecturers as it is hard to convey a single message to each an every individual student.
+</h1>
+
+
     </div>
-</div>
-        
-		
-		</div>
-	</div>
-		
-		<hr class="invis">
 
+
+
+
+    
+    <section class="section nopad cac text-center">
+        <a href="#"><h3>WELCOME!</h3></a>
+    </section>
+
+   
+
+
+            
+
+    <svg id="clouds1" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
 
 	<footer class="footer">
         <div class="container">
@@ -184,16 +192,18 @@
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                           <br> <img src="images/logos/logo-light.png" alt="">
-                            </div>
-							<p> All inquiries and doubts must be addressed to the priciple at the 3rd floor</p>
+                            <img src="images/logos/logo-light.png" alt="">
+                           
+                        </div>
+                        <p> All inquiries and doubts must be addressed to the priciple at the 3rd floor</p>
+  
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <br><h3>Contact Details</h3>
+                            <h3>Contact Details</h3>
                         </div>
 
                         <ul class="footer-links">
@@ -208,24 +218,23 @@
                 <div class="col-md-3 col-sm-3 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <br><h3>Information</h3>
+                            <h3>Information</h3>
                         </div>
 
                         <ul class="footer-links">
-                          <li><a href="#">About</a></li>
+                            <li><a href="#">About</a></li>
                             <li><a href="#">Profile</a></li>
                             <li><a href="#">Events & Extra Lectures</a></li>
-                            <li><a href="DigLibandStudAff.html">Student Affairs & Digital Library </a></li>
+                            <li><a href="#">Student Affairs & Digital Library</a></li>
                             <li><a href="#">Exams & Assignments</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 
-                 <div class="col-md-2 col-sm-2 col-xs-12">
+                <div class="col-md-2 col-sm-2 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <br>
-							<h3>Social</h3>
+                            <h3>Social</h3>
                         </div>
                         <ul class="footer-links social-md">
                             <li><a class="fb" href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
@@ -236,11 +245,11 @@
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
-				
+            </div><!-- end row -->
         </div><!-- end container -->
     </footer><!-- end footer -->
 	
-    
+   
 
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 

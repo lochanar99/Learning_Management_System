@@ -75,8 +75,8 @@
                     </ul>
                     <ul class="nav navbar-nav navbar-right menu-top">
                         <li><a href="/index">About</a></li>
-                        <li><a href="sProfile.html">Profile </a></li>
-                        <li><a href="Student_Module_Home.html">Lectures</a></li>
+                        <li><a href="/sProfile">Profile </a></li>
+                        <li><a href="/Student_Module_Home">Lectures</a></li>
                         <li><a class="active" href="{{ url('Events')}} ">Events & Extra Lectures</a></li>
                         <li><a href="/DigLibandStudAff">Student Affairs & Digital Library</a></li>
                         <li><a href="/sexam">Exams & Assignments </a></li>
