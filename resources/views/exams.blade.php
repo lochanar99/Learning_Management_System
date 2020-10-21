@@ -74,15 +74,12 @@
                         <li><a class="btn-light btn-radius btn-brd top-btn" href="#"><i class="fa fa-angle-double-right"></i>SEO Analysis</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right menu-top">
-                   
-                        <li><a href="/indexx">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAboutAbout </a></li>
-						<li><a href="/profile">profile</a></li>
-                        <li><a href="/modulehome">Lectures</a></li>
-                        <li><a href="/aEvents">Events & Extra Lectures</a></li>
-                        <li><a href="/AdminDigLibandStudAff">Student Affairs & Digital Library</a></li>
-                        <li><a href="/index1">Student Management</a></li>
-                        <li><a href="/inventry">Invetory</a></li>
-						<li><a class="active" href="/exam">Exams & Assignments </a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="sProfile.html">Profile </a></li>
+                        <li><a href="sLectures.html">Lectures</a></li>
+                        <li><a href="Events.html">Events & Extra Lectures</a></li>
+                        <li><a href="sAffairDlib.html">Student Affairs & Digital Library</a></li>
+                        <li><a class="active"href="sExams.html">Exams & Assignments </a></li>
                     </ul>
                 </div>
             </div>
@@ -136,16 +133,41 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3>Examinations & Results</h3>
-
             </div><!-- end title -->
-					<ul class="links">
-                        <li><a href="/assignment"><h2>Assignments</h2></a></li></br>
-                        <li><a href="/result"><h2>Results</h2></a></li></br>
-                        <li><a href="/report"><h2>Reports</h2></a></li></br>
-                        <li><a href="/notice"><h2>Notices</h2></a></li></br>
-                    </ul>
-            
-        </div><!-- end container -->
+            </div>
+
+            <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-4 col-xs-10">
+                    <div class="service-widget">
+                        <div class="post-media wow fadeIn">
+                            <img src="uploads/seo_03.png" alt="" class="img-responsive img-rounded">
+                        </div>
+                        <li><a href="/assignment"><h3>Assignments</h3></a></li>
+                    </div><!-- end service -->
+                </div><!-- end col -->
+                
+                <div class="col-md-4 col-sm-4 col-xs-10">
+                    <div class="service-widget">
+                        <div class="post-media wow fadeIn">
+                            <img src="uploads/seo_01.png" alt="" class="img-responsive img-rounded">
+                        </div>
+                        <li><a href="/result"><h3>Results</h3></a></li>
+                    </div><!-- end service -->
+                </div><!-- end col -->
+               
+                <div class="col-md-4 col-sm-4 col-xs-10">
+                    <div class="service-widget">
+                        <div class="post-media wow fadeIn">
+                            <img src="uploads/seo_05.png" alt="" class="img-responsive img-rounded">
+                        </div>
+                        <li><a href="/notice"><h3>Notices</h3></a></li>
+                    </div><!-- end service -->
+                </div><!-- end col -->
+    
+               
+            </div>   
+            </div>
     </div><!-- end section -->
 	
 
